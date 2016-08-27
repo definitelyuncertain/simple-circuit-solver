@@ -1,0 +1,19 @@
+Copyright (C) 2016 Sai Kiran N
+
+This program is available under the terms of the GNU-LGPL v3. The full
+license is stated in the file "LICENSE".
+
+
+
+This is a standalone circuit solver that I wrote for a course which 
+uses only the standard C library and gnuplot for plotting. It is capable
+of AC as well as DC simulation, and accepts a SPICE-like netlist.
+
+To compile :
+
+gcc cksolver.c -lm -o solver
+
+
+To execute with the given RC filter example netlist :
+
+./solver rc.txt

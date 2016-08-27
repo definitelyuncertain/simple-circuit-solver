@@ -1,0 +1,9 @@
+.circuit
+V1 0 in 1
+R1 in out 1
+C1 out 0 1m
+.end
+
+.command
+ac out 0 10 1meg 20
+.end
